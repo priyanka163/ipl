@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NewIplProject</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">FullName</string>
+    <string name="btn_signup">signup</string>
+    <string name="error_name">Enter your full name</string>
+    <string name="error_email">Enter valid email</string>
+    <string name="err_pswrd">Enter valid password</string>
+</resources>

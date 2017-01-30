@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/relative"
+    android:background="@drawable/ripple"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+
+android:clickable="true"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="139dp"
+        android:layout_height="115dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/image"
+        android:background="@drawable/ripple"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:layout_toRightOf="@+id/image">
+
+<!--<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/player_batting_style"
+    android:text="battingstyle"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Playername"
+        android:text="Playername"
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"/>
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dob"
+        android:text="kkkk"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nationality"
+        android:text="nationlity"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/role"
+        android:text="role"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/player_bowling_style"
+        android:text="bowling"/>
+-->
+    </LinearLayout>
+   <View
+       android:layout_below="@+id/linear"
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="#a4edb5"
+       android:layout_marginTop="35dp"></View>
+
+</RelativeLayout>
